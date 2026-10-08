@@ -1,8 +1,8 @@
 function validate(id, password, callback) {
-
     if (id === "Muskan" && password === "muskan123") {
         callback(true);
-    } else {
+    } 
+    else {
         callback(false);
     }
 }
@@ -10,7 +10,8 @@ function validate(id, password, callback) {
 function loginResult(isValid) {
     if (isValid) {
         console.log("Login successful");
-    } else {
+    } 
+    else {
         console.log("Invalid ID or password");
     }
 }
